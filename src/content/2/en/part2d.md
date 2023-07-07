@@ -261,7 +261,7 @@ This <em>map</em> trick may seem a bit strange at first, but it's worth spending
 
 The <i>App</i> component has become somewhat bloated after adding the code for communicating with the backend server. In the spirit of the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle), we deem it wise to extract this communication into its own [module](/en/part2/rendering_a_collection_modules#refactoring-modules).
 
-Let's create a <i>src/services</i> directory and add a file there called <i>notes.js</i>:
+Let's create a <i>src/services</i> directory and add a file there called <i>noteService.js</i>:
 
 ```js
 import axios from 'axios'
